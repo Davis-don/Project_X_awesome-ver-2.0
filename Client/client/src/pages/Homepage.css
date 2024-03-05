@@ -1,0 +1,313 @@
+.logo-header-div{
+width: 100px;
+height: 100px;
+background-color: red;
+}
+.actual-logo-img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+@media (max-width:540px){
+
+    .overall-homepage-container{
+    background-color: black;
+    width: 100vw;
+    height:max-content
+    }
+    .header-element{
+    background-color: black;
+    position: fixed;
+    top:0px;
+    z-index: +4;
+    }
+    .overall-header-div{
+      height: max-content;
+      position: relative;
+      width: 100vw;
+    }
+    .logo-item{
+    width: max-content;
+    padding: 5px;
+    }
+    .logo-id{
+        font-family: "Cookie", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 30px;
+       
+    }
+    .video-holder{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    
+      
+    .company-name{
+        position: absolute;
+        top: 50%;  
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .name-text {
+        font-family: "Satisfy", cursive;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 15px;
+        margin-top: 15px;
+      }
+      
+    /* .intro-image-section{
+    width: 100vw;
+    height: 89vh;
+    border: 1px solid red;
+    } */
+    /* .actual-video{
+    width: max-content;
+    height: max-content;
+    object-fit: cover;
+    } */
+    .angled-icon{
+    width: max-content;
+    margin: auto;
+    }
+    .other-information{
+    background-color: white;
+    height: max-content;
+    margin-top: 200px;
+    padding: 20px;
+    }
+    .personal-portfolio-image{
+    height: 300px;
+    }
+    .follow-us-on{
+    
+    }
+    .follow-winky-web-heading{
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    }
+    .follow-us-on ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:30px
+    }
+    .contact-us-on{
+      background-color: white;
+      }
+      .contact-ul{
+      display: flex;
+      flex-direction: column;
+      width: max-content;
+      margin: auto;
+      gap: 20px;
+      }
+    }
+    @media screen and (min-width:540px) and (max-width:780px){
+      .overall-homepage-container{
+        background-color: black;
+        width: 100vw;
+        height:max-content
+        }
+        .header-element{
+        width: 100vw;
+        background-color: black;
+        position: fixed;
+        top:0px;
+        z-index: +4;
+        }
+        .overall-header-div{
+          height: max-content;
+          position: relative;
+        }
+        .logo-item{
+        width: max-content;
+        padding: 5px;
+        }
+        .logo-id{
+            font-family: "Cookie", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+           
+        }
+        .video-holder{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+        
+          
+        .company-name{
+            position: absolute;
+            top: 50%;  /* position the top  edge of the element at the middle of the parent */
+            left: 80%; /* position the left edge of the element at the middle of the parent */
+            transform: translate(-50%, -50%); 
+        }
+        /* .{
+        
+        
+        } */
+        .name-text {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 23px;
+            margin-top: 15px;
+          }
+          
+        /* .intro-image-section{
+        width: 100vw;
+        height: 89vh;
+        border: 1px solid red;
+        } */
+        /* .actual-video{
+        width: max-content;
+        height: max-content;
+        object-fit: cover;
+        } */
+        .angled-icon{
+        width: max-content;
+        margin: auto;
+        }
+        .other-information{
+        background-color: white;
+        height: max-content;
+        margin-top: 150px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap:10px
+        }
+        .personal-portfolio-image{
+        height: 300px;
+        background-color: red;
+        }
+        .follow-us-on{
+        
+        }
+        .follow-winky-web-heading{
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        }
+        .follow-us-on ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:30px
+        }
+        .contact-us-on{
+          background-color: white;
+          }
+          .contact-ul{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+          }
+    }
+    @media screen and (min-width:780px){
+      .overall-homepage-container{
+        background-color: black;
+        width: 100vw;
+        height:max-content
+        }
+        .header-element{
+        width: 100vw;
+        background-color: black;
+        position: fixed;
+        top:0px;
+        z-index: +4;
+        }
+        .overall-header-div{
+          height: max-content;
+          position: relative;
+        }
+        .logo-item{
+        width: max-content;
+        padding: 5px;
+        }
+        .logo-id{
+            font-family: "Cookie", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 30px;
+           
+        }
+        .video-holder{
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        }
+        
+          
+        .company-name{
+            position: absolute;
+            top: 50%;  /* position the top  edge of the element at the middle of the parent */
+            left: 95vw; /* position the left edge of the element at the middle of the parent */
+            transform: translate(-50%, -50%); 
+        }
+        /* .{
+        
+        
+        } */
+        .name-text {
+            font-family: "Satisfy", cursive;
+            font-weight: 400;
+            font-style: normal;
+            font-size: 23px;
+            margin-top: 15px;
+          }
+          
+        /* .intro-image-section{
+        width: 100vw;
+        height: 89vh;
+        border: 1px solid red;
+        } */
+        /* .actual-video{
+        width: max-content;
+        height: max-content;
+        object-fit: cover;
+        } */
+        .angled-icon{
+        width: max-content;
+        margin: auto;
+        }
+        .other-information{
+        background-color: white;
+        height: max-content;
+        margin-top: 150px;
+        padding: 20px;
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+        gap:10px
+        }
+        .personal-portfolio-image{
+        height: 300px;
+        background-color: red;
+        }
+        .follow-us-on{
+        
+        }
+        .follow-winky-web-heading{
+        text-align: center;
+        color: white;
+        margin-top: 30px;
+        }
+        .follow-us-on ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap:30px
+        }
+        .contact-us-on{
+          background-color: white;
+          }
+          .contact-ul{
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+          }
+    }

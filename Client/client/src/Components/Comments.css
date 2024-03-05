@@ -1,0 +1,170 @@
+.testimonial-active{
+    background-color: 3px solid #F66800;
+}
+.testimonial-form-div{
+position: fixed;
+z-index: +4;
+top: 50%;  /* position the top  edge of the element at the middle of the parent */
+left: 50%; /* position the left edge of the element at the middle of the parent */
+background-color: black;
+transform: translate(-50%, -50%); 
+width: 100%;
+height: 100vh;
+opacity: 0.9;
+}
+
+.overall-testimonials-container{
+position: relative;
+}
+
+@media (max-width: 540px){
+    .actual-form{
+        position: absolute;
+        z-index: +4;
+        top: 50%;  /* position the top  edge of the element at the middle of the parent */
+        left: 50%; /* position the left edge of the element at the middle of the parent */
+        background-color: black;
+        transform: translate(-50%, -50%); 
+        width: 90vw;   
+    }
+.overall-testimonials-container{
+height: max-content;
+padding: 10px;
+}
+.testimonial-header-section{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+}
+.testimonials-navigation-links-container{
+width: max-content;
+border-top: 2px solid yellow;
+border-left: 2px solid yellow;
+margin: 10px;
+padding: 5px;
+}
+.testimonials-navigation-links-container ul{
+display: flex;
+flex-direction: column;
+gap:10px
+}
+.testimonials-navigation-links-container ul li{
+    border-bottom: 2px solid white;
+    font-size: 17px;
+}
+.testimonials-navigation-links-container ul li:hover{
+border-bottom: 2px solid yellow
+}
+.comment-container{
+border:2px solid grey;
+background-color: black;
+}
+.overall-specific-testimomial-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+    }
+}
+/* For Tablets */
+@media screen and (min-width: 540px) and (max-width: 780px) {
+    .actual-form{
+        position: absolute;
+        z-index: +4;
+        top: 50%;  /* position the top  edge of the element at the middle of the parent */
+        left: 50%; /* position the left edge of the element at the middle of the parent */
+        background-color: black;
+        transform: translate(-50%, -50%); 
+        width: 500px;   
+    }
+    .overall-testimonials-container{
+        background-color: black;
+        height: max-content;
+        padding: 10px;
+        }
+        .testimonial-header-section{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 10px;
+        }
+        .testimonials-navigation-links-container{
+        width: max-content;
+        border-top: 2px solid yellow;
+        border-left: 2px solid yellow;
+        margin: 10px;
+        padding: 5px;
+        }
+        .testimonials-navigation-links-container ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+        }
+        .testimonials-navigation-links-container ul li{
+            border-bottom: 2px solid white;
+            font-size: 17px;
+        }
+        .testimonials-navigation-links-container ul li:hover{
+        border-bottom: 2px solid yellow
+        }
+        .overall-specific-testimomial-container{
+        display: grid;
+        grid-template-columns: repeat(auto-fit,minmax(200px,1fr));
+        }
+        .comment-container{
+        border:2px solid grey;
+        background-color: black;
+        padding: 5px;
+        }  
+}
+@media screen and (min-width: 780px) {    /*desktop screens*/
+    .actual-form{
+        position: absolute;
+        z-index: +4;
+        top: 50%;  /* position the top  edge of the element at the middle of the parent */
+        left: 50%; /* position the left edge of the element at the middle of the parent */
+        background-color: black;
+        transform: translate(-50%, -50%); 
+        width: 500px;   
+    }
+    .overall-testimonials-container{
+        background-color: black;
+        height: max-content;
+        padding: 10px;
+        }
+        .testimonial-header-section{
+            display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding: 10px;
+        }
+        .testimonials-navigation-links-container{
+        width: max-content;
+        border-top: 2px solid yellow;
+        border-left: 2px solid yellow;
+        margin: 10px;
+        padding: 5px;
+        }
+        .testimonials-navigation-links-container ul{
+        display: flex;
+        flex-direction: column;
+        gap:10px
+        }
+        .testimonials-navigation-links-container ul li{
+            border-bottom: 2px solid white;
+            font-size: 17px;
+        }
+        .testimonials-navigation-links-container ul li:hover{
+        border-bottom: 2px solid yellow
+        }
+        .overall-specific-testimomial-container{
+            width: 90vw;
+            margin: auto;
+            display: grid;
+            grid-template-columns: repeat(auto-fit,minmax(300px,1fr));
+            }
+        .comment-container{
+        border:2px solid grey;
+        background-color: black;
+        padding: 5px;
+        }  
+}

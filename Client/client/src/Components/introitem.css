@@ -1,0 +1,12 @@
+.overall-introitem-component{
+    width: 100vw;
+    height: 65vh;
+    }
+    .overall-introitem-component img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+    .text-intro-heading{
+    text-align: center;
+    }
